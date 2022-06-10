@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Assignment: Mission Control, We Have Blastoff!
+     Jonathan Sze Crespo
+     University of Advancing Technology
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style copy.css" />
+    <title>UAT Space Program</title>
+  </head>
+  <body>
+    <!--Image from the logo-->
+    <img src="UATspaceLogo-2.png" />
+    <!--Subject-->
+    <h1>UAT Space Program</h1>
+    <form id="formlogin">
+        <label for="uname"><b>First Name</b></label>
+        <input type="text" placeholder="Enter First Name" id="uname" name="Username" required>
+        <h5 id="warningUname"></h5>
+        <label for="lname"><b>&nbsp;Last Name</b></label>
+        <input type="text" placeholder="Enter Last Name" id="lname" name="lastname" required>
+        <h5 id="warningLname"></h5>
+        <label for="pin"><b>&nbsp; &nbsp; &nbsp; &nbsp;Pin</b></label>
+        <input type="text" placeholder="Enter pin" id="pin" name="_pin" required>
+        <h5 id="warningLname"></h5>
+        <!--I use button instead type submit due to my template in .css-->
+        <button type="button" onClick="login()">Login</button>
+        <h5 id="warningLname"></h5>
+      </form>
+        <script src="script.js"></script>
+  </body>
+</html>
