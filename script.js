@@ -11,3 +11,18 @@ location.replace("objective.html"); // Objective page has the information of maj
 function back () {
     location.replace("index.html"); // back button move you to the landing page
     }
+
+
+function blastoff () {
+    location.replace("blastoff/index.html"); // back button move you to the landing page
+}
+
+
+
+function feedback () {
+    location.replace("feedback.html"); // Function to move to the Feedback form
+}
+
+
+
+
